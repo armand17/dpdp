@@ -1,0 +1,48 @@
+
+html, body{
+    height: 100%;
+}
+
+.container{
+    background-color: bisque;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+span{
+    font-size: 200px;
+}
+
+button{
+    background-color: #04164b;
+    color: white;
+    top: 150px;
+    font-size: 50px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    transition: box-shadow 0.4s, opacity 0.3s;
+}
+
+button:hover{
+    box-shadow:
+    -7px 0px 5px rgb(223, 156, 33),
+    7px 0px 5px rgb(33, 62, 223);
+}
+
+button:active{
+    opacity: 0.71;
+}
+
+
+#increase-btn{
+    right: 300px;
+}
+
+#decrease-btn{
+    left: 300px;
+}
